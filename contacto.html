@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Paula Villar Dev</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="navbar-logo">PV</div>
+      <span class="navbar-name">Paula Dev</span>
+    </div>
+    <div class="navbar-links">
+      <a href="index.html">Inicio</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <section class="page-header">
+      <h1 class="page-title">Contacto</h1>
+      <p class="page-subtitle">¿Tienes un proyecto en mente? Escríbeme.</p>
+    </section>
+
+    <section class="contact-grid">
+
+      <div class="contact-links">
+        <a href="https://wa.me/573332557380" target="_blank" class="contact-link-card">
+          <div class="contact-link-icon">💬</div>
+          <div class="contact-link-text">
+            <strong>WhatsApp</strong>
+            <span>+57 333 2557380</span>
+          </div>
+        </a>
+
+        <a href="mailto:proyectosdev03@gmail.com" target="_blank" class="contact-link-card">
+          <div class="contact-link-icon">✉️</div>
+          <div class="contact-link-text">
+            <strong>Correo</strong>
+            <span>proyectosdev03@gmail.com</span>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/paula-villar-dev" target="_blank" class="contact-link-card">
+          <div class="contact-link-icon">💼</div>
+          <div class="contact-link-text">
+            <strong>LinkedIn</strong>
+            <span>paula-villar-dev</span>
+          </div>
+        </a>
+      </div>
+
+      <form class="contact-form" action="https://formspree.io/f/mlgkogyp" method="POST">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" required
+            placeholder="Describe tu proyecto o cuéntame qué necesitas."></textarea>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+      </form>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Paula Dev. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+
+</html>
