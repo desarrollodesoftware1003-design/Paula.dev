@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tartas Ara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Tartas Ara</div>
+
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#galería">Galería</a></li>
+                    <li><a href="#personaliza">Personaliza</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+
+                <a href="#personaliza" class="cta-btn">Hacer pedido</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Tartas que convierten tus momentos
+                        en recuerdos inolvidables</h1>
+                    <p>En Tartas Ara elaboramos delicias artesanales
+                        con sabores irresistibles y diseños pensados para hacer
+                        especial cada celebración.</p>
+
+                    <div class="hero-buttons">
+                        <a href="#galería" class="cta-btn">Ver creaciones</a>
+                        <a href="#personaliza" class="secondary-btn">Encargar mi tarta</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="img/tarta principal.png" alt="tarta-artesanal">
+                </div>
+            </div>
+        </section>
+
+        <section id="galería">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span>GALERÍA</span>
+
+                    <h2>Un vistazo a nuestras creaciones.</h2>
+
+                    <p>Cada tarta es elaborada artesanalmente y personalizada para hacer única cada celebración.</p>
+                </div>
+
+                <div class="galería-grid">
+
+                    <div class="galería-card reveal">
+                        <img src="img/tarta1.png" alt="Tarta personalizada">
+                    </div>
+
+                    <div class="galería-card reveal">
+                        <img src="img/tarta2.png" alt="Tarta de celebración">
+                    </div>
+
+                    <div class="galería-card reveal">
+                        <img src="img/tarta3.png" alt="Tarta de matrimonio">
+                    </div>
+                </div>
+
+                <a href="galeria.html" class="galería-btn">Ver galería completa</a>
+
+            </div>
+        </section>
+
+        <section id="personaliza">
+
+            <div class="container">
+
+                <div class="section-header reveal">
+                    <span>PERSONALIZA</span>
+
+                    <h2>Crea tu tarta perfecta</h2>
+
+                    <p>
+                        Elige el tamaño, el sabor, el estilo y la ocasión para crear
+                        una tarta hecha especialmente para tu celebración.
+                    </p>
+                </div>
+
+                <div class="aviso-pedido">
+                    <span class="aviso-icono">◷</span>
+
+                    <p>
+                        <strong>Haz tu pedido con al menos 3 días de antelación.</strong>
+                        Cada tarta se prepara de forma artesanal — las tartas de varios
+                        pisos o con mucho detalle pueden necesitar más tiempo.
+                    </p>
+                </div>
+
+                <div class="personaliza-content">
+
+                    <div class="tarta-form reveal">
+
+
+                        <!-- TAMAÑO -->
+                        <div class="form-group">
+
+                            <h3>Elige el tamaño de tu tarta</h3>
+
+                            <div class="options-grid">
+
+                                <label class="option-card">
+                                    <input type="radio" name="tamaño" value="pequeño" required>
+                                    <span>
+                                        <strong>Pequeño</strong>
+                                        <small>4-6 porciones</small>
+                                    </span>
+                                    <b>27 €</b>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="tamaño" value="mediano">
+                                    <span>
+                                        <strong>Mediano</strong>
+                                        <small>10-12 porciones</small>
+                                    </span>
+                                    <b>45 €</b>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="tamaño" value="grande">
+                                    <span>
+                                        <strong>Grande</strong>
+                                        <small>20-25 porciones</small>
+                                    </span>
+                                    <b>58 €</b>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="tamaño" value="extra-grande">
+                                    <span>
+                                        <strong>Extra grande</strong>
+                                        <small>30 porciones</small>
+                                    </span>
+                                    <b>70 €</b>
+                                </label>
+
+                            </div>
+
+                            <div class="info-precio">
+                                <p><strong>¿Qué incluye el precio?</strong>
+                                    El precio indicado incluye el bizcocho, el relleno,
+                                    la decoración en crema y toppers no comestibles sencillos.</p>
+
+                                <p>La decoración extra, diseños especiales o detalles adicionales
+                                    pueden modificar el precio final según la complejidad del pedido.</p>
+
+                                <p><strong>¿Tartas de 2 pisos o más?</strong>
+                                    Consulta nuestro presupuesto personalizado.</p>
+                            </div>
+                        </div>
+
+
+                        <!-- BIZCOCHO -->
+                        <div class="form-group">
+
+                            <h3>Elige el sabor del bizcocho</h3>
+
+                            <div class="options-grid">
+
+                                <label class="option-card">
+                                    <input type="radio" name="bizcocho" value="vainilla" required>
+                                    <span>Vainilla</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="bizcocho" value="chocolate">
+                                    <span>Chocolate</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="bizcocho" value="red-velvet">
+                                    <span>Tres leches</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="bizcocho" value="red-velvet">
+                                    <span>Limón</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="bizcocho" value="zanahoria">
+                                    <span>Zanahoria</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="bizcocho" value="red-velvet">
+                                    <span>Marmoleado</span>
+                                </label>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- RELLENO -->
+                        <div class="form-group">
+
+                            <h3>Elige el sabor del relleno</h3>
+
+                            <div class="options-grid">
+
+                                <label class="option-card">
+                                    <input type="radio" name="relleno" value="arequipe" required>
+                                    <span>Dulce de leche</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="relleno" value="chocolate">
+                                    <span>Oreo</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="relleno" value="fresa">
+                                    <span>Ganache chocolate negro</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="relleno" value="frutos-rojos">
+                                    <span>Mermelada de frutos del bosque</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="relleno" value="frutos-rojos">
+                                    <span>Frosting de queso crema </span>
+                                </label>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- OCASIÓN -->
+                        <div class="form-group">
+
+                            <h3>¿Para qué ocasión es tu tarta?</h3>
+
+                            <div class="options-grid">
+
+                                <label class="option-card">
+                                    <input type="radio" name="ocasión" value="cumpleaños" required>
+                                    <span>Cumpleaños</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="ocasión" value="bautizo">
+                                    <span>Bautizo</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="ocasión" value="matrimonio">
+                                    <span>Boda</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="ocasión" value="revelación">
+                                    <span>Quince años</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="ocasión" value="aniversario">
+                                    <span>Revelación de sexo</span>
+                                </label>
+
+                                <label class="option-card">
+                                    <input type="radio" name="ocasión" value="otra">
+                                    <span>Baby shower</span>
+                                </label>
+
+
+                                <label class="option-card">
+                                    <input type="radio" name="ocasión" value="otra">
+                                    <span>Otra ocasión</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- IDEA DE LA TARTA -->
+                        <div class="form-group">
+
+                            <h3>CUÉNTANOS TU IDEA</h3>
+
+                            <textarea id="idea-tarta" rows="5"
+                                placeholder="Cuéntanos cómo imaginas tu tarta, los colores, el estilo, la temática o cualquier detalle importante."></textarea>
+
+                            <div class="foto-referencia">
+
+                                <label>
+                                    📷 Foto de referencia
+                                </label>
+
+                                <small>
+                                    Opcional. Si tienes una foto de inspiración o referencia,
+                                    podrás enviarla directamente por WhatsApp junto con tu pedido.
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- DATOS DEL PEDIDO -->
+                        <div class="form-group">
+
+                            <h3>Datos para tu pedido</h3>
+
+                            <div class="form-fields">
+
+                                <div class="field">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" id="nombre" placeholder="María Martínez" required>
+                                </div>
+
+                                <div class="field">
+                                    <label for="telefono">Teléfono</label>
+                                    <input type="tel" id="telefono" placeholder="+34 600 123 456" required>
+                                </div>
+
+                                <div class="field">
+                                    <label for="fecha">Fecha de entrega</label>
+                                    <input type="date" id="fecha" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RESUMEN -->
+                    <div class="pedido-resumen reveal">
+
+                        <h3>Tu tarta</h3>
+
+                        <div class="resumen-item">
+                            <span>Tamaño</span>
+                            <strong id="resumen-tamaño">Pequeño</strong>
+                        </div>
+
+                        <div class="resumen-item">
+                            <span>Bizcocho</span>
+                            <strong id="resumen-bizcocho">Chocolate</strong>
+                        </div>
+
+                        <div class="resumen-item">
+                            <span>Relleno</span>
+                            <strong id="resumen-relleno">Ganache chocolate negro</strong>
+                        </div>
+
+                        <div class="resumen-item">
+                            <span>Ocasión</span>
+                            <strong id="resumen-ocasion">Cumpleaños</strong>
+                        </div>
+
+                        <br>
+
+                        <div class="precio-final">
+                            <span>Precio</span>
+                            <h2 id="precio-final">60 €</h2>
+                        </div>
+
+                        <button type="button" class="cta-btn" id="btn-pedido">Encargar mi tarta</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2>Tartas Ara</h2>
+                <p>Tartas artesanales creadas con dedicación para hacer especial cada celebración.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Explora</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#galería">Galería</a>
+                <a href="#personaliza">Personaliza</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3 id="contacto">Contacto</h3>
+                <p>España</p>
+                <a href="https://wa.me/34654257496" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Tartas Ara. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
